@@ -81,7 +81,7 @@ func TestTransactions(t *testing.T) {
 		})
 
 		args := []cadence.Value{
-			cadence.NewString("Bar"),
+			cadence.String("Bar"),
 		}
 
 		_, _, err := s.Transactions.Send(
